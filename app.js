@@ -30,6 +30,9 @@ app.use(session({
 app.use(cookies());
 
 app.use('/', pageRoutes);
+app.use('/products', pageRoutes);
+app.use('/contact', pageRoutes);
+app.use('/services', pageRoutes);
 
 app.set('view engine', 'ejs')
 
