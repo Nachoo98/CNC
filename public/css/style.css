@@ -21,8 +21,6 @@ main{
 
 
 .col{
-  
-    border: solid 1px black;
     height: 20em;
 }
 
@@ -34,7 +32,11 @@ main{
 }
 
 .logo{
-    width: 25%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -98,4 +100,27 @@ color: white;
 .img{
     height: 20em;
     width: 100%;
+}
+
+.referencias{
+    text-align: center;
+    margin: 10%; 
+}
+
+.referencias i{
+ color:  #efb810;
+}
+
+#modelos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    text-align:center; 
+    margin-top:10%; 
+    width: 95%;
+    margin-left: 5%;
 }
