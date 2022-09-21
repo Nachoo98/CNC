@@ -39,6 +39,13 @@ main{
   align-items: center;
 }
 
+.logo a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .opciones{
     display: flex;
@@ -63,6 +70,12 @@ main{
 .op a{
     text-decoration: none;
 }
+
+#mapa{
+    text-align:center; 
+    margin-top:8%;
+}
+
 .whatsapp {
     font-size: 200%;
     margin-right: -8%;
@@ -90,14 +103,13 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    height: 60em;
+    height: 80em;
 }
 
 .contenedorCarrusel{
     height: 20em;
 }
-
-.img{
+#img{
     height: 20em;
     width: 100%;
 }
@@ -117,10 +129,42 @@ color: white;
     justify-content: center;
     align-items: center;
 }
+#capacitacion{
+    width: auto; 
+    height:18em; 
+    margin-top: 15%;
+}
 
 #video{
-    text-align:center; 
     margin-top:10%; 
     width: 95%;
-    margin-left: 5%;
 }
+
+.op a :hover{
+    font-size: large;
+}
+.navbar{
+    visibility: hidden;
+
+}
+@media screen and (max-width: 720px) {
+    .navbar{
+        visibility: visible;
+
+    }
+    #mapa{
+        text-align:center; 
+        margin-top:20%;
+    }
+    #capacitacion{
+        margin-top: 2%;
+    }
+.logo{
+    width: 70%;
+}
+    #op-nav{
+        display: none;
+    }
+}
+
+
