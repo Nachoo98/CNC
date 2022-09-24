@@ -5,7 +5,7 @@ header{
     box-shadow: 0px 5px 60px 0.5px grey;
     opacity: 0.95;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 footer{
@@ -73,7 +73,7 @@ main{
 
 #mapa{
     text-align:center; 
-    margin-top:8%;
+    margin-top:5%;
 }
 
 .whatsapp {
@@ -110,7 +110,7 @@ color: white;
     height: 20em;
 }
 #img{
-    height: 20em;
+
     width: 100%;
 }
 
@@ -136,7 +136,7 @@ color: white;
 }
 
 #video{
-    margin-top:10%; 
+    margin-top:15%; 
     width: 95%;
 }
 
@@ -147,14 +147,81 @@ color: white;
     visibility: hidden;
 
 }
+.mobile{
+    visibility: hidden;
+}
+
+.showroom{
+    padding: 2%;
+}
+.showroom_2{
+    margin-top:10%
+}
+.caja_tipo{
+    margin-top: -50%;
+    height: 8em;
+}
+
+.caja_tipo p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.caja_tipo button{
+    background-color: #4E759C;
+}
+.caja_producto{
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+}
+.titulo_producto{
+width: 100%;
+height: 5%;
+margin-bottom: 5%;
+text-align: center;
+}
+.producto{
+width: 100%;
+height: 80%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.carta_producto{
+    width: 30%;
+    text-align: center;
+}
+
+.tipo{
+    height:100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+.contenedor_producto{
+    height:100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+#tarjeta_producto{
+    height: 100%;
+}
+.big_box{
+     display: flex;
+    flex-direction:row ;
+    height: 150em;
+}
+
 @media screen and (max-width: 720px) {
     .navbar{
         visibility: visible;
 
-    }
-    #mapa{
-        text-align:center; 
-        margin-top:20%;
     }
     #capacitacion{
         margin-top: 2%;
@@ -165,6 +232,55 @@ color: white;
     #op-nav{
         display: none;
     }
+    #video{
+        margin-top:0%; 
+    }
+    .mobile{
+        visibility: visible;
+    }
+    .showroom{
+        padding: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .showroom_2{
+        margin-top:3%
+    }
+    .producto{
+        flex-direction: column;
+        align-items: center;
+        height: 95%;
+        
+    }
+
+.titulo_producto{
+    margin-bottom: -10%;
+}
+    .contenedor_producto{ 
+        justify-content: space-between;
+    }
+        .caja_tipo button{
+            width: 100%;
+        }
+        .carta_producto{
+            width: 70%;
+            height: 30%;
+            
+        }
+        .caja_producto{
+            height: 95em;
+        }
+#img{
+    width: 50%;
+}
+      
+        .caja_tipo{
+            z-index: 1;
+        }
+
+        .big_box{
+            height: 350em;
+        }
 }
 
 
