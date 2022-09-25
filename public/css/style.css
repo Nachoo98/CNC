@@ -218,7 +218,16 @@ justify-content: space-around;
     height: 150em;
 }
 
-@media screen and (max-width: 720px) {
+.columna-nosotros{
+    width: 100%;
+}
+
+
+.caja_home{
+    width: 99%;
+}
+
+@media screen and (max-width: 600px) {
     .navbar{
         visibility: visible;
 
@@ -281,6 +290,15 @@ justify-content: space-around;
         .big_box{
             height: 350em;
         }
+
+        #quienes{
+    margin-bottom: 15%;
+        }
+        .caja_home{
+            width: 95%;
+        }
+        
 }
+
 
 
