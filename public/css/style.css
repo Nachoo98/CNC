@@ -257,6 +257,7 @@ justify-content: space-around;
     }
     .producto{
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         height: 95%;
         
