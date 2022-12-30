@@ -11,7 +11,8 @@ const path=require('path');
 const app=express();
 app.use(cors());
 
-
+const PORT=8080;
+const HOST='0.0.0.0';
 
 
 //middlewares
@@ -39,4 +40,6 @@ app.set('view engine', 'ejs')
 app.listen(process.env.PORT || 3015, ()=>{
     console.log("Servidor corriendo");
 });
+
+ 
 
